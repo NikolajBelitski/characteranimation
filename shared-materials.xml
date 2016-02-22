@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml3d>
+  <shader compute="(diffuseColor, specularColor, shininess, transparency) = xflow.blenderMaterial(diffuse_color, diffuse_intensity, specular_color, specular_intensity, specular_hardness, alpha)" id="Material-001" script="urn:xml3d:shader:phong">
+    <float name="diffuse_intensity">0.800000011920929</float>
+    <float3 name="diffuse_color">0.800000011920929 0.800000011920929 0.800000011920929</float3>
+    <float name="specular_intensity">0.5</float>
+    <float3 name="specular_color">1.0 1.0 1.0</float3>
+    <float name="specular_hardness">50</float>
+    <float name="alpha">1</float>
+  </shader>
+</xml3d>
